@@ -87,5 +87,6 @@ SELECT * FROM Employees ORDER BY FirstName DESC
 --- Query 12 Write a query to get the EmployeeID, names (FirstName, LastName), salary in ascending order of salary. ---
 SELECT EmployeeID,FirstName,LastName,Salary FROM Employees ORDER BY Salary ASC
 
+
 --- Query 13 Select TOP 2 salary from employee table ---
 SELECT TOP 2 Salary FROM Employees

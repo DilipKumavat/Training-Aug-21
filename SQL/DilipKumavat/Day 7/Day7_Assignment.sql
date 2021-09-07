@@ -90,4 +90,3 @@ SELECT * FROM
 WITH CTE 
 AS (SELECT emp.First_Name,ISNULL(inc.Incentive_Amount,0) AS amt FROM Employee emp LEFT OUTER JOIN Incentives inc ON emp.Employee_ID = inc.Employee_Ref_ID)
 SELECT * FROM CTE
-

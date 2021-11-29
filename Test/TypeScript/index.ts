@@ -46,3 +46,10 @@ function bookTable (userContactNumber,tableId,bookingDateTime){
 }
 
 bookTable(8320936448,1,new Date(2021,12,21,20,0,0));
+
+
+
+
+
+
+

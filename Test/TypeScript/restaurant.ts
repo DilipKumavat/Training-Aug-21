@@ -18,9 +18,7 @@ class Restaurant implements IRestaurant{
         this.restaurant_country = coutry;
     }
 
-    displayRestaurant() : void {
-        console.log()
-    }
+    
 }
 
 export {Restaurant}

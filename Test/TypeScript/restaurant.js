@@ -8,9 +8,6 @@ var Restaurant = /** @class */ (function () {
             this.restaurant_numberOfTable = numberOfTable,
             this.restaurant_country = coutry;
     }
-    Restaurant.prototype.displayRestaurant = function () {
-        console.log();
-    };
     return Restaurant;
 }());
 exports.Restaurant = Restaurant;
